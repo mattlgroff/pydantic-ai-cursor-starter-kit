@@ -1,0 +1,8 @@
+{
+  "dependencies": ["./pyproject.toml"],
+  "graphs": {
+    "example_agent": "./src/agent.py:agent_graph"
+  },
+  "env": "./.env",
+  "python_version": "3.12"
+}

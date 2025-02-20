@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  langgraph-server:
+    image: langchain-ai/langgraph-server:latest
+    ports:
+      - "8000:8000"
