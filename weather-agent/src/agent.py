@@ -6,7 +6,7 @@ from pydantic_ai import Agent, RunContext
 
 
 weather_agent = Agent(
-    "openai:gpt-4o",
+    "groq:llama-3.3-70b-versatile",
     # 'Be concise, reply with one sentence.' is enough for some models (like openai) to use
     # the below tools appropriately, but others like anthropic and gemini require a bit more direction.
     system_prompt=(

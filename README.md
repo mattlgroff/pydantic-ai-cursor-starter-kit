@@ -1,15 +1,45 @@
-# Pydantic AI Starter Kit
+# Pydantic AI
 
-This is a starter kit for building an agent using Pydantic AI
+This is a starter kit for building an agent using Pydantic AI.
 
-To read more about:
+## Documentation
 
-- Pydantic AI read our [local docs here](./docs/pydantic-ai/pydantic-ai-docs.md) or the [latest online docs for LLMs](https://ai.pydantic.dev/llms.txt) or for [humans](https://ai.pydantic.dev)
+The following documentation is available in `./docs/pydantic-ai/`:
 
-## Run the example agent
+- **Core Concepts**
+
+  - [Agents](./docs/pydantic-ai/Agents.md)
+  - [Models](./docs/pydantic-ai/Models.md)
+  - [Dependencies](./docs/pydantic-ai/Dependencies.md)
+  - [Function Tools](./docs/pydantic-ai/Function_Tools.md)
+  - [Structured Result Validation](./docs/pydantic-ai/Structured_Result_Validation.md)
+  - [Messages and Chat History](./docs/pydantic-ai/Messages_and_chat_history.md)
+
+- **Advanced Topics**
+  - [Testing and Evals](./docs/pydantic-ai/Testing_and_Evals.md)
+  - [Multi-agent Applications](./docs/pydantic-ai/Multi_agent_Applications.md)
+  - [Graphs](./docs/pydantic-ai/Graphs.md)
+
+For the complete documentation, visit [ai.pydantic.dev](https://ai.pydantic.dev/).
+
+## Examples
+
+The following examples are available in `./examples/`:
+
+- `pydantic_model.py` - Basic Pydantic model usage
+- `weather_agent.py` - Simple weather agent implementation
+- `bank_support.py` - Bank support agent with dependency injection
+- `sql_generation.py` - SQL query generation
+- `multi_agent_flow_flight_booking.py` - Multi-agent flight booking system
+- `rag.py` - Retrieval Augmented Generation example
+- `stream_markdown.py` - Streaming markdown content
+- `stream_structured_objects.py` - Streaming structured data
+- `chat_app_with_fastapi.py` - FastAPI chat application integration
+
+## Run the Weather Agent Example
 
 ```bash
-cd example-agent
+cd weather-agent
 
 uv venv
 
