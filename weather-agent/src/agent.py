@@ -1,8 +1,16 @@
 import asyncio
 from typing import Any
 
+import logfire
 from devtools import debug
 from pydantic_ai import Agent, RunContext
+from settings import settings
+
+# Configure logfire with token from environment
+logfire.configure(
+    token=settings.logfire_token,
+    send_to_logfire="if-token-present" if settings.logfire_send_to_logfire else False,
+)
 
 
 weather_agent = Agent(

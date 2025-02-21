@@ -4,21 +4,21 @@ This is a starter kit for building an agent using Pydantic AI.
 
 ## Documentation
 
-The following documentation is available in `./docs/pydantic-ai/`:
+The following Pydantic AIdocumentation is available in `./docs/`:
 
 - **Core Concepts**
 
-  - [Agents](./docs/pydantic-ai/Agents.md)
-  - [Models](./docs/pydantic-ai/Models.md)
-  - [Dependencies](./docs/pydantic-ai/Dependencies.md)
-  - [Function Tools](./docs/pydantic-ai/Function_Tools.md)
-  - [Structured Result Validation](./docs/pydantic-ai/Structured_Result_Validation.md)
-  - [Messages and Chat History](./docs/pydantic-ai/Messages_and_chat_history.md)
+  - [Agents](./docs/Agents.md)
+  - [Models](./docs/Models.md)
+  - [Dependencies](./docs/Dependencies.md)
+  - [Function Tools](./docs/Function_Tools.md)
+  - [Structured Result Validation](./docs/Structured_Result_Validation.md)
+  - [Messages and Chat History](./docs/Messages_and_chat_history.md)
 
 - **Advanced Topics**
-  - [Testing and Evals](./docs/pydantic-ai/Testing_and_Evals.md)
-  - [Multi-agent Applications](./docs/pydantic-ai/Multi_agent_Applications.md)
-  - [Graphs](./docs/pydantic-ai/Graphs.md)
+  - [Testing and Evals](./docs/Testing_and_Evals.md)
+  - [Multi-agent Applications](./docs/Multi_agent_Applications.md)
+  - [Graphs](./docs/Graphs.md)
 
 For the complete documentation, visit [ai.pydantic.dev](https://ai.pydantic.dev/).
 

@@ -1,0 +1,44 @@
+You are an expert in Python and Pydantic AI. The latest documentation is available in the [./docs](docs) directory, and detailed examples can be found in the [./examples](examples) folder. Always refer to these resources for in-depth guidance.
+
+## Core Principles
+
+• Write concise, technical responses with accurate Python examples.
+• Prefer functional, declarative programming; avoid classes where possible.
+• Use async/await for all asynchronous operations, minimizing blocking I/O.
+
+## Naming Conventions & File Structure
+
+• Use lowercase_with_underscores for file and directory names (e.g., modules/user_module.py).
+• Organize code into clearly separated modules: business logic, utilities, static content, and types (models, schemas).
+• Favor named exports for functions and utility collections.
+
+## Coding Practices
+
+• Use def for pure functions and async def for asynchronous operations.
+• Include type hints for all function signatures. Prefer Pydantic models for input validation over raw dictionaries.
+• Write one-line conditionals without unnecessary curly braces (e.g., if condition: do_something()).
+• Use descriptive variable names with auxiliary verbs (e.g., is_active, has_permission).
+
+## Error Handling & Validation
+
+• Handle errors and edge cases early with guard clauses and immediate returns.
+• Place the happy path at the end of the function for clarity and readability.
+• Implement robust logging and use custom error types or factories for consistency.
+
+## Performance Considerations
+
+• Leverage asynchronous operations for database calls and external API requests.
+• Implement caching strategies (e.g., in-memory or Redis) for static or frequently accessed data.
+
+## Dependency Management & Modular Design
+
+• Use Pydantic AI's dependency injection system to manage state and shared resources.
+• Monitor and optimize for agent performance metrics (response time, latency, throughput).
+
+## Additional Best Practices
+
+• See [docs/Testing_and_Evals.md](docs/Testing_and_Evals.md) for comprehensive testing strategies and evaluations.
+• Consult [docs/Messages_and_chat_history.md](docs/Messages_and_chat_history.md) for guidance on managing message contexts and chat histories.
+• Review [docs/Graphs.md](docs/Graphs.md) and [docs/Multi_agent_Applications.md](docs/Multi_agent_Applications.md) for designing agent workflows and inter-agent communication.
+• Check [docs/Function_Tools.md](docs/Function_Tools.md) for tips on creating efficient asynchronous utilities.
+• Explore examples such as [chat_app_with_fastapi.py](examples/chat_app_with_fastapi.py), [multi_agent_flow_flight_booking.py](examples/multi_agent_flow_flight_booking.py), [rag.py](examples/rag.py), and others in the [./examples](examples) directory for practical implementations.

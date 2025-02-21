@@ -7,5 +7,8 @@ requires-python = ">=3.12"
 dependencies = [
     "asyncio>=3.4.3",
     "devtools>=0.12.2",
+    "logfire>=3.6.1",
+    "pydantic>=2.10.6",
     "pydantic-ai>=0.0.24",
+    "pydantic-settings>=2.7.1",
 ]
