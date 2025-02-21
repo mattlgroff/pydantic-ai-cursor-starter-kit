@@ -1,6 +1,8 @@
-# Pydantic AI
+# Pydantic AI Cursor Starter Kit
 
-This is a starter kit for building an agent using Pydantic AI.
+This is a starter kit for building an agent using Pydantic AI using [Cursor IDE](https://www.cursor.com/).
+
+It's not a traditional starter kit in that it doesn't have a lot of bells and whistles. It has a lot of documentation, examples, .cursorrules file, and a single example agent implementation.
 
 ## Documentation
 
